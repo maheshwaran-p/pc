@@ -199,6 +199,13 @@ a:link, a:visited, a:active {
 .bg{
     background:
     url(../img/banne.jpg) center/cover no-repeat ;
+    background-position: center;
+background-attachment: scroll;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
    
 }
 .bg-1{
@@ -223,6 +230,7 @@ a:link, a:visited, a:active {
     background-position: center center;
     background-blend-mode:saturation;
     z-index: 2;
+    
 }
 .header h1{
     color: brown;
