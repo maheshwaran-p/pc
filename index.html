@@ -75,7 +75,7 @@
 
       <div class="barra">
         <a class="logo no-margin centrar-texto" href="index.html">
-          <img src="./img/pct.jpg" class="im">
+          <img src="./img/pct.jpg" width="50px" height="50px" class="im">
         </a>
       </div>
       <div>
@@ -147,7 +147,7 @@
 
             nav a {
               color: rgb(158, 98, 255);
-              font-size: 2rem;
+              font-size: 1.8rem;
               margin-bottom: 0;
               opacity: .5;
               text-align: right;
@@ -1031,6 +1031,21 @@
       cursor: pointer;
       z-index: 100;
       transition: top 0.4s 0.2s;
+      animation: updown 2s ease infinite;
+    }
+
+    @keyframes updown {
+      0% {
+        transform: translateY(10%);
+      }
+
+      50% {
+        transform: translateY(30%);
+      }
+
+      100% {
+        transform: translateY(10%);
+      }
     }
 
     .menu.change {
