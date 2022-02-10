@@ -199,13 +199,7 @@ a:link, a:visited, a:active {
 .bg{
     background:
     url(../img/banner.jpg) center/cover no-repeat ;
-    background-position: center;
-background-attachment: scroll;
-background-repeat: no-repeat;
--webkit-background-size: cover;
--moz-background-size: cover;
-background-size: cover;
--o-background-size: cover;
+    
    
 }
 .bg-1{
